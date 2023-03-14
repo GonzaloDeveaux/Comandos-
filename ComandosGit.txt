@@ -14,7 +14,7 @@ git init (instala un repositorio en git completamernte vacio dentro de la direci
 git status (nos muestra el estado actual del repocitorio)
 git add + nombre del archivo (la extencion con "." puede ser para agregar todos los archivos con la misma extencion ejemplo git add .txt o git add . para agregar TODOS los archivos
    pero no es muy recomendable)
-   git add --staged + nombre de archivo con extencion (revierte el add y quita el archivo seleccionado del area de staged)
+git restore --staged + nombre de archivo con extencion (revierte el add y quita el archivo seleccionado del area de staged)
 git commit -m "nombre descriptivo del commit"
 git push (subir el archivo al repocitorio)
 git clone (te permite descargar y copiar un repositorio en tu pc)
