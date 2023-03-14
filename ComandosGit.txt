@@ -1,25 +1,13 @@
-// Comandos de la terminal
+// Comandos Git
 
-pwd > Print working directory / Imprimir el directorio 
-  (imprime en la terminal el directorio actual en el que estamos trabajando)
+comandos para configurar las credenciales
 
-ls > list / Listar (imprime una lista de los archivos o directorios que se encuentran en el directorio 
-    en el que estamos trabajando)
+git --version
+git config --global user.name "Fulano Tal"
+git config --global user.email fulano@gmail.com
+git config --global core.editor "core --wait"
+git config --global -e (visualizar el archivo de configuracion global en vscode)
+git config --global core.autocrlf true (no tengo claro que hace esto pero pronto lo entederas)
+git config -h 
 
-mkdir + "Argumento" (nombre de la carpeta) > Make directory / Crear directorio (crea un directorio 
-    o carpeta nuevo)
-
-cd > Change Directory / Cambiar de directorio (cambioamos de directorio)
-cd .. > (vovler una carpeta atras)
-
-clear (limpia la termianl)
-
-touch + "nombre del archivo.extencion" (crea nuevo archivo)
-
-rm + nombre de archivo > Remove / remover (elimina archivo indicado)
-   rm -r > Elimina directorio indicado
-
-hepl > ayuda de los Comandos
-comando -- help > nos da opcione o argumentos para usar en este Comando
-
-
+git init (instala un repositorio en git completamernte vacio dentro de la direcion en la que nos encontramos)
