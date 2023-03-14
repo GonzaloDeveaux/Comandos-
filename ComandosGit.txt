@@ -11,3 +11,6 @@ git config --global core.autocrlf true (no tengo claro que hace esto pero pronto
 git config -h 
 
 git init (instala un repositorio en git completamernte vacio dentro de la direcion en la que nos encontramos)
+git status (nos muestra el estado actual del repocitorio)
+git add + nombre del archivo (la extencion con "." puede ser para agregar todos los archivos con la misma extencion ejemplo git add .txt o git add . para agregar TODOS los archivos
+   pero no es muy recomendable)
