@@ -1,0 +1,25 @@
+// Comandos de la terminal
+
+pwd > Print working directory / Imprimir el directorio 
+  (imprime en la terminal el directorio actual en el que estamos trabajando)
+
+ls > list / Listar (imprime una lista de los archivos o directorios que se encuentran en el directorio 
+    en el que estamos trabajando)
+
+mkdir + "Argumento" (nombre de la carpeta) > Make directory / Crear directorio (crea un directorio 
+    o carpeta nuevo)
+
+cd > Change Directory / Cambiar de directorio (cambioamos de directorio)
+cd .. > (vovler una carpeta atras)
+
+clear (limpia la termianl)
+
+touch + "nombre del archivo.extencion" (crea nuevo archivo)
+
+rm + nombre de archivo > Remove / remover (elimina archivo indicado)
+   rm -r > Elimina directorio indicado
+
+hepl > ayuda de los Comandos
+comando -- help > nos da opcione o argumentos para usar en este Comando
+
+
