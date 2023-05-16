@@ -20,7 +20,13 @@ touch + "nombre del archivo.extencion" (crea nuevo archivo)
 rm + nombre de archivo > Remove / remover (elimina archivo indicado)
    rm -r > Elimina directorio indicado
 
+mv + "nombre de archivo" "nuevo nombre" (cambia nombre del archivo)
+git mv + "nombre del archivo" "nuevo nombre" (este comando manda inmeidatamente los cambios a staged)
+
 hepl > ayuda de los Comandos
 comando -- help > nos da opcione o argumentos para usar en este Comando
 
+npm tes > para corroborar las respuestas de los ejercicios
 
+No es comando pero para usar console.log ese ocupan parentesis
+Para return no se usa parentesis 
