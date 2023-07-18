@@ -280,3 +280,115 @@ function ideas(listaDeIdeas) {
     return "Fail!";
   }
   }
+
+
+
+
+/*
+  * Completa la función 'casasAnuales' a continuación.
+  *
+  * La función debe retornar un NÚMERO ENTERO.
+  * La función recibe un NÚMERO 'n' por parámetro.
+  *
+  * No modifiques nada por fuera de la función.
+  */
+ 
+ function casasAnuales(n) {
+     // Tu código aquí:
+     if (n === 0) {
+         return 0;
+     } else if (n === 1) {
+         return 30;
+     } else if (n < 0) {
+         return 'false';
+     } else {
+         return (casasAnuales(n-1)) + (casasAnuales(n/n));
+     }
+    };
+
+
+/*
+ * Completa el método 'prepararMenu' a continuación.
+ *
+ * La función debe retornar un OBJETO. ready
+ * La función recibe por parámetro:
+ *  - un ARREGLO DE STRINGS 'tragos'.
+ *  - un ARREGLO DE ENTEROS 'tiempos'.
+ *  - un NÚMERO 'tiempoLimite'.
+ *
+ * No modifiques nada por fuera del cuerpo de la función.
+ */
+
+
+    function prepararMenu(tragos, tiempos, tiempoLimite) { 
+      // Tu código aquí
+      const menu = {
+          tragos: new Stack (),
+          tiempos: new Stack (),
+      };
+      
+          for (let i = tragos.length - 1; i >=0; i--) {
+              const trago = tragos[i];
+              const tiempo = tiempos[i];
+          
+          if (tiempo <= tiempoLimite) {
+              menu.tragos.push(trago);
+              menu.tiempos.push(tiempo);
+          }
+      }  
+      return menu; 
+  };
+
+
+
+
+
+
+
+
+  class Queue {
+    constructor() {
+      this.array = [];
+    }
+  
+    enqueue(elemento) {
+      return this.array.push(elemento);
+    }
+  
+    dequeue() {
+      return this.array.shift();
+    }
+  
+    size() {
+      return this.array.length;
+    }
+  }
+  
+  function henryParty(arr) {
+    const invitadosValidos = new Queue();
+  
+    // Recorre la fila de personas
+    for (const persona of arr) {
+      const { name, ticket, estado } = persona;
+  
+      // Verifica si la persona tiene un ticket válido y su estado es "invitado"
+      if (ticket && estado === 'invitado') {
+        invitadosValidos.enqueue(persona);
+      }
+    }
+  
+    return invitadosValidos;
+  }
+
+  /* 
+  30 dias
+  1 dia = 24 horas
+  1 hora = 60 minutos
+  1 minuto = 60 segundos
+   */
+
+  const daysInMonth = 30;
+  const secondsPerDay = 24 * 60 * 60;
+  const secondsInMonth = daysInMonth * secondsPerDay;
+  
+  console.log("Segundos en un mes de 30 días:", secondsInMonth); 

@@ -1,4 +1,5 @@
-/* Arreglos
+/* 
+Arreglos
 Los arreglos o array son otro tipo de datos que existen en JavaScript (como numeros, booleanos, string, etc)
 Nos permiten guarda y gestionar informacion (nos ayudara mucho cuando queramos almacenar muchos datos)
 Los arreglos peuden ser comparados con una lista de datos a la cual podemos acceder en cualquier moemnto
@@ -21,18 +22,20 @@ EN LOS ARREGLOS SIEMRPOE SE EMPEZARA A CONTABLIZIAR DESDE LA POSICION CERO
 Tomando el ejemplo anterior quedaria 
 0.Tomate
 1.Lechuga
-2.Zanahoria*/
+2.Zanahoria
+*/
 
-// var ListaDeCompras = [];
-// ListaDeCompras [3] = "Tomates";
-// ListaDeCompras [1] = "Lechuga";
+//  var ListaDeCompras = [];
+//  ListaDeCompras [3] = "Tomates";
+//  ListaDeCompras [1] = "Lechuga";
 
-//console.log(ListaDeCompras);
-//console.log (ListaDeCompras[1]);
-//var elementoDelArray = ListaDeCompras[3];
-//console.log(elementoDelArray);
+// console.log(ListaDeCompras);
+// console.log (ListaDeCompras[1]);
+// var elementoDelArray = ListaDeCompras[3];
+// console.log(elementoDelArray);
 
-/* como en cuaqluier otro tipo de datos vamos a usar la palabra 
+/*
+como en cuaqluier otro tipo de datos vamos a usar la palabra 
 VAR seguida del nombre con el que vamos a identificar nuestro arreglo
 
 ya quedo creado nuestro primer arreglo pero falta agregar nuestros productos 
